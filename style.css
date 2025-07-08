@@ -52,3 +52,30 @@ a:hover {
     text-decoration: none;
 }
 
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 0.95em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .skill {
+        font-size: 0.85em;
+        padding: 5px 10px;
+    }
+
+    .download {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
