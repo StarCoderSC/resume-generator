@@ -18,8 +18,18 @@ Built with Python - minimal, fast, and customizable.
 ## 📁 Folder Structure
 
 resume-generator/
+
+
 ├── resume_generator.py # Main generator script
-├── data.json # Your structured resume data
+
+
+├── data.json 
+
+
 ├── resume_template.html # Templated HTML layout (with Jinja2 syntax)
+
+
 ├── resume.html # Auto-generated output (final resume)
+
+
 └── README.md # You're looking at it
