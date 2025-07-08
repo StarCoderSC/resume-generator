@@ -22,14 +22,10 @@ resume-generator/
 
 ├── resume_generator.py # Main generator script
 
-
 ├── data.json 
-
 
 ├── resume_template.html # Templated HTML layout (with Jinja2 syntax)
 
-
 ├── resume.html # Auto-generated output (final resume)
-
 
 └── README.md # You're looking at it
