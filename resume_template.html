@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ name }} - Resume</title>
+  <style>
+    body { 
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: #f9f9f9;
+    }
+    h1 {
+        font-size: 2em;
+        color: #333;
+    }
+    h2 {
+        border-bottom: 1px solid #ccc;
+        margin-top: 2em;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #007acc;
+    }
+    .project, .edu {
+        margin-bottom: 1em;  
+    }
+    .skill {
+        display: inline-block;
+        background: #e0e0e0;
+        margin: 3px;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>{{ name }}</h1>
+  <p><strong>{{ title }}</strong></p>
+  <p>{{ summary }}</p>
+
+  <h2>Skills</h2>
+  {% for skill in skills %}
+    <span class="skill">{{ skill }}</span>
+  {% endfor %}
+
+  <h2>Projects</h2>
+  {% for project in projects %}
+    <div class="project">
+      <strong>{{ project.name }}</strong><br>
+      <small>{{ project.description }}</small><br>
+      <a href="{{ project.link }}" target="_blank">{{ project.link }}</a>
+    </div>
+  {% endfor %}
+
+  <h2>Education</h2>
+  {% for edu in education %}
+    <div class="edu">
+      <strong>{{ edu.degree }}</strong><br>
+      <em>{{ edu.institution }}</em> - {{ edu.year }}
+    </div>
+  {% endfor %}
+
+  <h2>Contact</h2>
+  <p>Email: {{ contact.email }}<br>GitHub: <a href="{{ contact.github }}" target="_blank">{{ contact.github }}</a><br>
+    Portfolio: <a href="{{ contact.portfolio }}" target="_blank">{{ contact.portfolio }}</a>
+  </p>
+</body>  
+</html>

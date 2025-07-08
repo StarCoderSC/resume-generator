@@ -1,0 +1,60 @@
+{
+    "name": "StarCoderSC",
+    "title": "Python Developer | CLI Engineer | Future AI Scientist",
+    "summary": "Self-taught developer focused on backend Python, automation, and CLI tools. Strong foundation in algorithms, recursion and file systems.",
+    "skills": ["Python", "CLI Tools", "Automation", "HTML/CSS", "Flask"],
+    "education": [
+        {
+            "degree": "Diploma in Mechanical Engineering",
+            "institution": "K.P.A",
+            "year": "2016-2019"
+        },
+        {
+            "degree": "B.Tech (Mechanical Engineering)",
+            "institution": "Kaziranga University",
+            "year": "2019-2021"
+        }
+    ],
+
+    "projects": [
+        {
+        "name": "Duplicates File Cleaner",
+        "description": "CLI tool to detect and safely deletes duplicate files using SHA256 hash comparison with preview and trash support.",
+        "link": "https://github.com/StarCoderSC/duplicate-file-cleaner"
+    },
+    {       
+        "name": "Scientific Expression Evaluator",
+        "description": "A scientific calculator that supports variables, user-defined functions, and full infix evaluation without using Python's 'eval()' - all CLI-Powered",
+        "link": "https://github.com/StarCoder/math-expression-evaluator"
+    },
+    {
+        "name": "CLI To-Do Manager",
+        "description": "Terminal-based to-do list manager with persistent task storage in a task file.",
+        "link": "https://github.com/StarCoderSC/cli-todo-manager"
+    },
+    {
+        "name": "File Organizer CLI",
+        "description": "Organizes file by type, logs actions, supports undo via log.",
+        "link": "https://github.com/StarCoderSC/file-organizer-cli"
+    },
+    {
+        "name": "Flatten utils",
+        "description": "A Python module that recursively flattens deeply nested lists tuples, and sets into a single iterable.",
+        "link": "https://github.com/StarCoderSC/flatten-utils"
+    },
+    {
+        "name": "Flask Contact App",
+        "description": "A basic contact submission blog-style app using Flask, SQLAlchemy and Bootstrap (will resume soon....).",
+        "link": "https://github.com/StarCoderSC/flask-contact-app"
+    }
+    ],
+
+    "contact": {
+        "email": "starcoder.dev@gmail.com",
+        "github": "https://github.com/StarCoderSC",
+        "portfolio": "https://starcodersc.github.io"
+    }
+}
+
+
+
